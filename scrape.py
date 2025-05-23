@@ -2,18 +2,19 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+import time
 
-
-def setupSel() -> webdriver:
-    driver = webdriver.Chrome()
-    driver.get('https://himalayas.app/jobs/software-engineering')
-    return driver
+def get_driver() -> webdriver:
+    return webdriver.Chrome()
 
     
-def transformData(driver):
-    page_source = driver.page_source
-    soup = BeautifulSoup(page_source, "html.parser")
+def get_jobs_on_page(driver, url):
+    driver.get(url)
+    time.sleep(2)
+    
+    soup = BeautifulSoup(driver.page_source, "html.parser")
     jobs_only = soup.find_all('div', class_='w-full flex-1')
+
 
     jobs = []
     for job in jobs_only:
@@ -39,3 +40,28 @@ def transformData(driver):
         jobs.append([job_title, job_company, job_salary, job_link, job_company_size])
 
     return jobs
+
+
+# paginate all results
+def scrape_all_pages(query):
+    driver = get_driver()
+
+    page = 1
+    all_jobs = []
+    while True:
+        print(f"Scraping page {page}")
+        url = f"{query}?page={page}"
+        jobs = get_jobs_on_page(driver, url)
+
+        if(page >= 6):
+            break
+
+        if not jobs:
+            print("No more jobs found. Exiting.")
+            break
+        
+        page+=1
+        all_jobs.extend(jobs)
+    
+    driver.quit()
+    return all_jobs
