@@ -37,27 +37,28 @@ def get_jobs_on_page(driver, url):
                 job_company_size = split[2]
 
         # create a unique id mapped to a link
-        jobs.append([job_title, job_company, job_salary, job_link, job_company_size])
+        jobs.append([job_title, job_company, job_salary, job_company_size, job_link])
 
     return jobs
 
-
 # paginate all results
-def scrape_all_pages(query):
+def scrape_all_pages(query, stopAt:int = None):
     driver = get_driver()
 
     page = 1
     all_jobs = []
     while True:
         print(f"Scraping page {page}")
-        url = f"{query}?page={page}"
+        url = f"{query}&page={page}"
         jobs = get_jobs_on_page(driver, url)
 
-        if(page >= 2):
+        # user defined stop
+        if(stopAt and page >= stopAt):
+            print(f"Stopping search after {stopAt} pages.")
             break
 
         if not jobs:
-            print("No more jobs found. Exiting.")
+            print("No more jobs found. Exiting Gracefully.")
             break
         
         page+=1

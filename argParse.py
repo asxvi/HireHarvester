@@ -16,25 +16,26 @@ def parse_args():
                         # choices=['full-time', 'part-time', 'intern', 'contractor', 'volunteer', 'other', 'temporary'],
                         default='full-time',
                         help='Specify job type level. Default: full time')
-    parser.add_argument('-p',  '--pages', type=int, default=5, help="Max number of pages to scrape.")
+    parser.add_argument('-p',  '--pages', type=int, default=1, help="Max number of pages to scrape. Default: 1 page")
     return parser.parse_args()
 
 
 def slugify(text): # called slugify apparently
-    rv = text.strip().lower().replace(' ', '-') 
-    return rv.replace(',', '%2C')   #add separator for mutiple selection e.g entry-level mid-level
+    return text.strip().lower().replace(',', '%2C').replace(' ', '-') #add separator for mutiple selection e.g entry-level mid-level
+    # rv = text.strip().lower().replace(' ', '-') 
+    # return rv.replace(',', '%2C')   #add separator for mutiple selection e.g entry-level mid-level
 
-def construct_url(role: str = None, location: str =None, experience: str = None, type: str = None, pages: int = None):
+def construct_url(role: str = None, location: str = None, experience: str = None, type: str = None, pages: int = None):
     base_url = 'https://himalayas.app/jobs' # as of 5/23/25
     path = base_url
-    
+
     if location:
         path += f"/countries/{slugify(location)}"
     if role:
         path += f"/{slugify(role)}?"
     if experience:
-        path += f"{slugify(experience)}"
+        path += f"experience={slugify(experience)}"
     if type:
-        path += f"{slugify(type)}"
+        path += f"&type={slugify(type)}"
     print(path)
     return path
