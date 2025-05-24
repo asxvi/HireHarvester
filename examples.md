@@ -1,6 +1,6 @@
 # Example CLI input and expected results
-format:
- Description  
+format:  
+ #### Description  
  CLI Input  
  Expected URL fetch  
 

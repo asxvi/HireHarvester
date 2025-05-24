@@ -4,13 +4,16 @@
 
 
 ## Project Structure
-    main.py: Main script for scraping data from Himalayas.
-    scrape.py: Base setup for Selenium WebDriver and logic for scraping.
-    argParse.py: CLI parser/ utility to allow end-user specific jobs
-    requirements.txt: List of dependencies to install using pip.
-    env/: Virtual environment for project dependencies.
-    .gitignore: Specifies intentionally untracked files to ignore.
-
+```
+~HireHarvestor
+├── main.py: Main script for scraping data from Himalayas.
+├── scrape.py: Base setup for Selenium WebDriver and logic for scraping.
+├── argParse.py: CLI parser/ utility to allow end-user specific jobs
+├── requirements.txt: List of dependencies to install using pip.
+├── examples.md: Running code examples and results
+├── .venv/: Virtual environment for project dependencies.
+├── .gitignore: Specifies intentionally untracked files to ignore.
+```
 
 ## Setup
 * Ensure Python 3.x is installed. 
