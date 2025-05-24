@@ -53,7 +53,7 @@ def scrape_all_pages(query):
         url = f"{query}?page={page}"
         jobs = get_jobs_on_page(driver, url)
 
-        if(page >= 6):
+        if(page >= 2):
             break
 
         if not jobs:

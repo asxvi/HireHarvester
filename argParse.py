@@ -1,13 +1,40 @@
 import argparse
+# from urllib.parse import 
 
-parser = argparse.ArgumentParser(description='Scrape jobs (legally) from Himalayas.app')
-parser.add_argument('-s', '--skill', type=str, default='software engineer',
-                    help='Input specific job or skill. Default: software engineer')
-parser.add_argument('-l', '--location', type=str, default='United States',
-                    help='Input specific location. Default: United States')
-parser.add_argument('-e', '--experience', type=str,
-                    choices=['entry-level', 'mid-level', 'senior-level'],
-                    default='entry-level',
-                    help='Specify experience level (entry-level, mid-level, senior-level)')
+def parse_args():
+    parser = argparse.ArgumentParser(description='Scrape jobs (legally) from Himalayas.app')
+    parser.add_argument('-r', '--role', type=str, 
+                        # default='software engineer',
+                        help='Input specific role or skill. Default: software engineer')
+    parser.add_argument('-l', '--location', type=str, default='United States',
+                        help='Input specific location. Default: United States')
+    parser.add_argument('-e', '--experience', type=str,
+                        # choices=['entry-level', 'mid-level', 'senior', 'manager', 'director'],
+                        # default='entry-level',
+                        help='Specify experience level. Default: entry-level')
+    parser.add_argument('-t', '--type', type=str,
+                        # choices=['full-time', 'part-time', 'intern', 'contractor', 'volunteer', 'other', 'temporary'],
+                        default='full-time',
+                        help='Specify job type level. Default: full time')
+    parser.add_argument('-p',  '--pages', type=int, default=5, help="Max number of pages to scrape.")
+    return parser.parse_args()
 
-args = parser.parse_args()
+
+def slugify(text): # called slugify apparently
+    rv = text.strip().lower().replace(' ', '-') 
+    return rv.replace(',', '%2C')   #add separator for mutiple selection e.g entry-level mid-level
+
+def construct_url(role: str = None, location: str =None, experience: str = None, type: str = None, pages: int = None):
+    base_url = 'https://himalayas.app/jobs' # as of 5/23/25
+    path = base_url
+    
+    if location:
+        path += f"/countries/{slugify(location)}"
+    if role:
+        path += f"/{slugify(role)}?"
+    if experience:
+        path += f"{slugify(experience)}"
+    if type:
+        path += f"{slugify(type)}"
+    print(path)
+    return path
