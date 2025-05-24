@@ -15,7 +15,6 @@ def get_jobs_on_page(driver, url):
     soup = BeautifulSoup(driver.page_source, "html.parser")
     jobs_only = soup.find_all('div', class_='w-full flex-1')
 
-
     jobs = []
     for job in jobs_only:
         # split into 3 primary div elements ending in '_html'
