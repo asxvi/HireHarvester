@@ -1,9 +1,0 @@
-HireHarvestor
-├── README.md
-├── main.py
-├── scrape.py
-├── argParse.py
-├── requirements.txt
-├── examples.md
-├── __pycache__
-
