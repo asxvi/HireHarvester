@@ -73,7 +73,7 @@ def scrape_all_pages(driver, query, stopAt:int = None):
     return all_jobs
 
 # gather more info from each jobs specific link
-def scrape_extended_info(driver, data):    
+def scrape_extended_infoRight(driver, data):    
     rv_data = []
 
     for curr in data:
@@ -98,3 +98,31 @@ def scrape_extended_info(driver, data):
         # job_application_link = rightSection.find('a', class_='inline-flex')
 
         break
+
+
+#focus on right side for now
+def scrape_extended_infoLeft(driver, data):  
+    rv_data = []
+
+    for curr in data:
+        print(curr)
+        currUrl = curr[4] 
+        driver.get(currUrl)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        mainDiv = soup.find('div', class_='flex flex-col gap-x-16 xl:flex-row')
+        leftSection = mainDiv.contents[0]
+        workingArea = leftSection.find('article', class_='mb-8')
+
+        # print(workingArea)
+        
+        vps = workingArea.find_all('h3')
+        for v in vps:
+            print(v)
+
+        # overview = rightSection.find
+        break
+        
+
+def scrape_extended_info(driver, data):
+    scrape_extended_infoLeft(driver, data)
