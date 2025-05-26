@@ -27,8 +27,8 @@ if __name__ == '__main__':
     if arguments['pages']:
         jobs = scrape_all_pages(driver, URL, arguments['pages'])
 
-    # print(jobs)
-    # for job in jobs:
-    #     print(job)
+    print(jobs)
+    for job in jobs:
+        print(job)
 
-    scrape_extended_info(driver, jobs)
+    # scrape_extended_info(driver, jobs)

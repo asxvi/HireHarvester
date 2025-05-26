@@ -104,7 +104,9 @@ def scrape_extended_infoRight(driver, data):
 def scrape_extended_infoLeft(driver, data):  
     rv_data = []
 
+    i=0
     for curr in data:
+
         print(curr)
         currUrl = curr[4] 
         driver.get(currUrl)
@@ -118,11 +120,16 @@ def scrape_extended_infoLeft(driver, data):
         
         vps = workingArea.find_all('h3')
         for v in vps:
-            print(v)
-
-        # overview = rightSection.find
-        break
+            # print(v.text.lower())
+            rv_data.append(v.text.lower())
         
+        i+=1
+        if i> 5:
+            break
+
+    for d in rv_data:
+        print(d)
+
 
 def scrape_extended_info(driver, data):
     scrape_extended_infoLeft(driver, data)
