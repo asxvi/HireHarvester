@@ -27,5 +27,9 @@ if __name__ == '__main__':
     if arguments['pages']:
         jobs = scrape_all_pages(URL, arguments['pages'])
 
+
+    # print(jobs)
     for job in jobs:
         print(job)
+
+    # scrape_specific_info(jobs)

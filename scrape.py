@@ -46,6 +46,7 @@ def scrape_all_pages(query, stopAt:int = None):
 
     page = 1
     all_jobs = []
+    exitFlag = False
     while True:
         print(f"Scraping page {page}")
         url = f"{query}&page={page}"
@@ -54,14 +55,23 @@ def scrape_all_pages(query, stopAt:int = None):
         # user defined stop
         if(stopAt and page >= stopAt):
             print(f"Stopping search after {stopAt} pages.")
-            break
+            exitFlag = True
+            # break
 
         if not jobs:
             print("No more jobs found. Exiting Gracefully.")
-            break
+            exitFlag = True
+            # break
         
         page+=1
         all_jobs.extend(jobs)
-    
+        
+        if(exitFlag):
+            break
     driver.quit()
     return all_jobs
+
+# # gather more info from each jobs specific link
+# def scrape_specific_info(data):
+#     for d in data:
+#         print(d)
