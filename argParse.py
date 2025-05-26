@@ -6,7 +6,8 @@ def parse_args():
     parser.add_argument('-r', '--role', type=str, 
                         # default='software engineer',
                         help='Input specific role or skill. Default: software engineer')
-    parser.add_argument('-l', '--location', type=str, default='United States',
+    parser.add_argument('-l', '--location', type=str, 
+                        default='United States',
                         help='Input specific location. Default: United States')
     parser.add_argument('-e', '--experience', type=str,
                         # choices=['entry-level', 'mid-level', 'senior', 'manager', 'director'],
@@ -14,7 +15,7 @@ def parse_args():
                         help='Specify experience level. Default: entry-level')
     parser.add_argument('-t', '--type', type=str,
                         # choices=['full-time', 'part-time', 'intern', 'contractor', 'volunteer', 'other', 'temporary'],
-                        default='full-time',
+                        # default='full-time',
                         help='Specify job type level. Default: full time')
     parser.add_argument('-p',  '--pages', type=int, default=1, help="Max number of pages to scrape. Default: 1 page")
     return parser.parse_args()

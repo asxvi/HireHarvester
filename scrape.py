@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 import time
 
@@ -41,8 +42,8 @@ def get_jobs_on_page(driver, url):
     return jobs
 
 # paginate all results
-def scrape_all_pages(query, stopAt:int = None):
-    driver = get_driver()
+def scrape_all_pages(driver, query, stopAt:int = None):
+    # driver = get_driver()
 
     page = 1
     all_jobs = []
@@ -68,10 +69,32 @@ def scrape_all_pages(query, stopAt:int = None):
         
         if(exitFlag):
             break
-    driver.quit()
+    # driver.quit()
     return all_jobs
 
-# # gather more info from each jobs specific link
-# def scrape_specific_info(data):
-#     for d in data:
-#         print(d)
+# gather more info from each jobs specific link
+def scrape_extended_info(driver, data):    
+    rv_data = []
+
+    for curr in data:
+        print(curr)
+        currUrl = curr[4] 
+        driver.get(currUrl)
+        
+        # create temp driver to fetch the link bc website uses their local path in href link to job
+        tempDriver = webdriver.Chrome()
+        tempDriver.get(currUrl)
+        tempDriver.find_element(By.CSS_SELECTOR, '.inline-flex.gap-x-2').click()
+        WebDriverWait(tempDriver, 10).until(lambda d: len(d.window_handles) > 1)
+        tempDriver.switch_to.window(tempDriver.window_handles[1])
+        print("Redirected to:", tempDriver.current_url)
+        
+
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        mainDiv = soup.find('div', class_='flex flex-col gap-x-16 xl:flex-row')
+        leftSection = mainDiv.contents[0]
+        rightSection = mainDiv.contents[1]
+        # job_application_link = rightSection.find('a', class_='inline-flex')
+
+        break

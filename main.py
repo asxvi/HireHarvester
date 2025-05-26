@@ -1,5 +1,5 @@
 from selenium import webdriver
-from scrape import scrape_all_pages
+from scrape import scrape_all_pages, scrape_extended_info
 from argParse import parse_args, construct_url
 
 
@@ -25,11 +25,11 @@ if __name__ == '__main__':
     URL = construct_url(**arguments) #unpack dictionary and pass as args
     jobs = []
     if arguments['pages']:
-        jobs = scrape_all_pages(URL, arguments['pages'])
+        jobs = scrape_all_pages(driver, URL, arguments['pages'])
 
 
     # print(jobs)
-    for job in jobs:
-        print(job)
+    # for job in jobs:
+    #     print(job)
 
-    # scrape_specific_info(jobs)
+    scrape_extended_info(driver, jobs)
