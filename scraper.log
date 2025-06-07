@@ -1,0 +1,185 @@
+06/07/2025 11:16:55 AM - INFO - BEGINNING Program...
+06/07/2025 11:16:55 AM - INFO - Parsing Args
+06/07/2025 11:16:55 AM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 11:16:56 AM - WARNING - The chromedriver version (136.0.7103.113) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.69); currently, chromedriver 137.0.7151.68 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+06/07/2025 11:17:01 AM - INFO - Terminated SUCCESSFULLY
+06/07/2025 11:19:20 AM - INFO - BEGINNING Program...
+06/07/2025 11:19:20 AM - INFO - Parsing Args
+06/07/2025 11:19:20 AM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 11:19:26 AM - INFO - Terminated SUCCESSFULLY
+06/07/2025 11:37:10 AM - INFO - BEGINNING Program...
+06/07/2025 11:37:10 AM - INFO - Parsing Args
+06/07/2025 11:37:10 AM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 11:37:19 AM - INFO - Terminated SUCCESSFULLY
+06/07/2025 11:40:32 AM - INFO - BEGINNING Program...
+06/07/2025 11:40:32 AM - INFO - Parsing Args
+06/07/2025 11:40:32 AM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 11:40:33 AM - INFO - Connected to <selenium.webdriver.chrome.webdriver.WebDriver (session="74d5f7ef406db98908c5e18e18d4ce5c")>
+06/07/2025 11:40:37 AM - INFO - Terminated SUCCESSFULLY
+06/07/2025 11:51:46 AM - INFO - BEGINNING Program...
+06/07/2025 11:51:46 AM - INFO - Parsing Args
+06/07/2025 11:51:46 AM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 11:51:47 AM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="365a91ae3f487ec01183e7d796b3f7b4")>
+06/07/2025 11:51:47 AM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 11:51:47 AM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 11:51:47 AM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 11:51:51 AM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:10:04 PM - INFO - BEGINNING Program...
+06/07/2025 12:10:04 PM - INFO - Parsing Args
+06/07/2025 12:10:04 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 12:10:06 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="19218907d769bf153f9e4eda601a99d0")>
+06/07/2025 12:10:06 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:10:06 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:10:06 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:10:06 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:10:10 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:10:27 PM - INFO - BEGINNING Program...
+06/07/2025 12:10:27 PM - INFO - Parsing Args
+06/07/2025 12:10:27 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 12:10:28 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="eb72c6fbae9c845676adce34a2e91939")>
+06/07/2025 12:10:28 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:10:28 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:10:28 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:10:28 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer', 'Notable', '156k-166k', 'N/A', 'https://himalayas.app/companies/notablehealth/jobs/software-engineer-2463219400']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer - Java', 'RouteOne', 'N/A', 'N/A', 'https://himalayas.app/companies/routeone/jobs/software-engineer-java']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer', 'Bamboo Health', 'N/A', '501-1000', 'https://himalayas.app/companies/bamboo-health/jobs/software-engineer']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer', 'Mechanical Orchard', 'N/A', '11-50', 'https://himalayas.app/companies/mechanical-orchard/jobs/software-engineer-6524925941']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer: Foundations', 'Thatch', 'N/A', '51-200', 'https://himalayas.app/companies/thatch/jobs/software-engineer-foundations-9153907329']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer', 'Meta', 'N/A', '5000+', 'https://himalayas.app/companies/meta/jobs/software-engineer']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer, Async Team', 'Gusto', 'N/A', '1001-5000', 'https://himalayas.app/companies/gusto/jobs/senior-software-engineer-async-team-9368039659']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer', 'Careers', '100k-120k', 'N/A', 'https://himalayas.app/companies/careers/jobs/senior-software-engineer']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer - Back Office Team', 'Factorial', 'N/A', '501-1000', 'https://himalayas.app/companies/factorial/jobs/senior-software-engineer-back-office-team-7489942312']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer II', 'dbt Labs', 'N/A', '201-500', 'https://himalayas.app/companies/dbt-labs/jobs/senior-software-engineer-ii-8882693214']
+06/07/2025 12:10:31 PM - INFO - got job ['Principal Software Developer - PR 1253', 'PE Systems, Inc.', 'N/A', '201-500', 'https://himalayas.app/companies/pe-systems-inc/jobs/principal-software-developer-pr-1253']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer - Languages and SDKs', 'Pulumi Corporation', 'N/A', '51-200', 'https://himalayas.app/companies/pulumi-corporation/jobs/senior-software-engineer-languages-and-sdks']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer', 'Cherre', 'N/A', '51-200', 'https://himalayas.app/companies/cherre/jobs/software-engineer-7414580039']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer (Frontend, Backend, or Full stack)', 'Subscript', 'N/A', '11-50', 'https://himalayas.app/companies/subscript/jobs/software-engineer-frontend-backend-or-full-stack-2171229008']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer, Marketplace', 'Fleetio', 'N/A', '51-200', 'https://himalayas.app/companies/fleetio/jobs/senior-software-engineer-marketplace-6902610316']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer - C# and SQL (Open to Remote)', 'Triumph Financial', 'N/A', '1001-5000', 'https://himalayas.app/companies/triumph-financial/jobs/software-engineer-c-and-sql-open-to-remote']
+06/07/2025 12:10:31 PM - INFO - got job ['Senior Software Engineer - Insights', 'Pulumi Corporation', 'N/A', '51-200', 'https://himalayas.app/companies/pulumi-corporation/jobs/senior-software-engineer-insights-2280340967']
+06/07/2025 12:10:31 PM - INFO - got job ['Principal Software Engineer, Full-stack', 'Onebrief', 'N/A', '11-50', 'https://himalayas.app/companies/onebrief/jobs/principal-software-engineer-full-stack']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer - Payroll Domain', 'Factorial', 'N/A', '501-1000', 'https://himalayas.app/companies/factorial/jobs/software-engineer-payroll-domain']
+06/07/2025 12:10:31 PM - INFO - got job ['Software Engineer - Fullstack', 'Vesta', 'N/A', '11-50', 'https://himalayas.app/companies/vesta/jobs/software-engineer-fullstack-2929092401']
+06/07/2025 12:10:31 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:13:26 PM - INFO - BEGINNING Program...
+06/07/2025 12:13:26 PM - INFO - Parsing Args
+06/07/2025 12:13:26 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 12:13:28 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3c2ff8faae83c30bb179e606c6dfd2a5")>
+06/07/2025 12:13:28 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:13:28 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:13:28 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:13:28 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:13:32 PM - INFO - got 1 jobs 
+06/07/2025 12:13:32 PM - INFO - got 2 jobs 
+06/07/2025 12:13:32 PM - INFO - got 3 jobs 
+06/07/2025 12:13:32 PM - INFO - got 4 jobs 
+06/07/2025 12:13:32 PM - INFO - got 5 jobs 
+06/07/2025 12:13:32 PM - INFO - got 6 jobs 
+06/07/2025 12:13:32 PM - INFO - got 7 jobs 
+06/07/2025 12:13:32 PM - INFO - got 8 jobs 
+06/07/2025 12:13:32 PM - INFO - got 9 jobs 
+06/07/2025 12:13:32 PM - INFO - got 10 jobs 
+06/07/2025 12:13:32 PM - INFO - got 11 jobs 
+06/07/2025 12:13:32 PM - INFO - got 12 jobs 
+06/07/2025 12:13:32 PM - INFO - got 13 jobs 
+06/07/2025 12:13:32 PM - INFO - got 14 jobs 
+06/07/2025 12:13:32 PM - INFO - got 15 jobs 
+06/07/2025 12:13:32 PM - INFO - got 16 jobs 
+06/07/2025 12:13:32 PM - INFO - got 17 jobs 
+06/07/2025 12:13:32 PM - INFO - got 18 jobs 
+06/07/2025 12:13:32 PM - INFO - got 19 jobs 
+06/07/2025 12:13:32 PM - INFO - got 20 jobs 
+06/07/2025 12:13:32 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:13:54 PM - INFO - BEGINNING Program...
+06/07/2025 12:13:54 PM - INFO - Parsing Args
+06/07/2025 12:13:54 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 12:13:55 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="24978549be8811a7a08e425319ca1eae")>
+06/07/2025 12:13:55 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:13:55 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:13:55 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:13:55 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:13:59 PM - INFO - got 20 jobs 
+06/07/2025 12:13:59 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:15:34 PM - INFO - BEGINNING Program...
+06/07/2025 12:15:34 PM - INFO - Parsing Args
+06/07/2025 12:15:34 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 1])
+06/07/2025 12:15:36 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3357302a441393c773de9d4ea7dfba47")>
+06/07/2025 12:15:36 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:15:36 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:15:36 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:15:36 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:15:41 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:15:41 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:17:21 PM - INFO - BEGINNING Program...
+06/07/2025 12:17:21 PM - INFO - Parsing Args
+06/07/2025 12:17:21 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:17:23 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="705740baaa4432289f35612549b714c7")>
+06/07/2025 12:17:23 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:17:23 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:17:23 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:17:23 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:17:27 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:17:30 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:17:33 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:17:33 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:20:24 PM - INFO - BEGINNING Program...
+06/07/2025 12:20:24 PM - INFO - Parsing Args
+06/07/2025 12:20:24 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:20:25 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="678e3a086ee46673f718f9171355a105")>
+06/07/2025 12:20:25 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:20:25 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:20:25 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:20:25 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:20:29 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:20:33 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:20:36 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:20:36 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:23:56 PM - INFO - BEGINNING Program...
+06/07/2025 12:23:56 PM - INFO - Parsing Args
+06/07/2025 12:23:56 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:23:58 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3182b53862e5730292d85f03167c0a84")>
+06/07/2025 12:23:58 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:23:58 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:23:58 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:23:58 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:24:01 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:24:05 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:24:08 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:24:08 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:24:53 PM - INFO - BEGINNING Program...
+06/07/2025 12:24:53 PM - INFO - Parsing Args
+06/07/2025 12:24:53 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:24:54 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="38327932f127aeb8b7c81c7514e587ae")>
+06/07/2025 12:24:54 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:24:54 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:24:54 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:24:54 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:24:58 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:25:02 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:25:05 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:25:05 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:29:29 PM - INFO - BEGINNING Program...
+06/07/2025 12:29:29 PM - INFO - Parsing Args
+06/07/2025 12:29:29 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:29:31 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="1401acc4678918855a22284beeed956c")>
+06/07/2025 12:29:31 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:29:31 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:29:31 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:29:31 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:29:35 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:29:40 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:29:45 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:29:45 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 12:30:59 PM - INFO - BEGINNING Program...
+06/07/2025 12:30:59 PM - INFO - Parsing Args
+06/07/2025 12:30:59 PM - INFO - Search Parameters/ args are: dict_values(['software engineer', 'united states', None, None, 3])
+06/07/2025 12:31:00 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="fd9bbf42c55b1a22650e1cf02f43da4d")>
+06/07/2025 12:31:00 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 12:31:00 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 12:31:00 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:31:00 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 12:31:04 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 12:31:09 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 12:31:12 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 12:31:12 PM - INFO - Terminated SUCCESSFULLY

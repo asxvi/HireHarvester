@@ -4,6 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 import time
+from logger import setup_logger
+
+logger = setup_logger()
 
 def get_driver() -> webdriver:
     return webdriver.Chrome()
@@ -38,13 +41,12 @@ def get_jobs_on_page(driver, url):
 
         # create a unique id mapped to a link
         jobs.append([job_title, job_company, job_salary, job_company_size, job_link])
-
+    
+    logger.info(f'Scraped {len(jobs)} jobs from {url}')
     return jobs
 
 # paginate all results
 def scrape_all_pages(driver, query, stopAt:int = None):
-    # driver = get_driver()
-
     page = 1
     all_jobs = []
     exitFlag = False
