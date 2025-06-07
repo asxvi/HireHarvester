@@ -51,7 +51,6 @@ def scrape_all_pages(driver, query, stopAt:int = None):
     all_jobs = []
     exitFlag = False
     while True:
-        print(f"Scraping page {page}")
         url = f"{query}&page={page}"
         jobs = get_jobs_on_page(driver, url)
 
@@ -66,14 +65,15 @@ def scrape_all_pages(driver, query, stopAt:int = None):
             exitFlag = True
             # break
         
-        page+=1
         all_jobs.extend(jobs)
         
         if(exitFlag):
             break
-    # driver.quit()
-    return all_jobs
+        print(f"Scrapped page {page}")
+        page+=1
 
+    return all_jobs
+s
 # gather more info from each jobs specific link
 def scrape_extended_infoRight(driver, data):    
     rv_data = []
