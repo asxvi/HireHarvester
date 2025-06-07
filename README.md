@@ -35,7 +35,7 @@ See [this file](examples.md) for example input and output.
 Watch this video for recorded demonstration.
 
 ## TODO
-- [X] readme
-- [ ] create db and store in db or csv or json
+- [X] ~~readme~~
+- [X] DID CSV ~~create db and store in db or csv or json~~
 - [ ] scrape more specific data for each job
 - [ ] examples and walk through
