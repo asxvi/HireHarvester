@@ -396,3 +396,80 @@
 06/07/2025 01:50:22 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
 06/07/2025 01:50:22 PM - INFO - File not exist. Creating file and Header
 06/07/2025 01:50:22 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 03:36:01 PM - INFO - BEGINNING Program...
+06/07/2025 03:36:01 PM - INFO - Parsing Args
+06/07/2025 03:36:01 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 3}
+06/07/2025 03:36:03 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="c5c6c48b8f05f1043352586b3dfdea4d")>
+06/07/2025 03:36:03 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 03:36:03 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 03:36:03 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 03:36:03 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 03:36:08 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 03:36:12 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 03:36:16 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 03:36:16 PM - INFO - File not exist. Creating file and Header
+06/07/2025 03:36:16 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 05:31:59 PM - INFO - BEGINNING Program...
+06/07/2025 05:31:59 PM - INFO - Parsing Args
+06/07/2025 05:31:59 PM - INFO - Search Parameters: {'role': 'data engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 1}
+06/07/2025 05:32:02 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="ab55b3afe9cab95dff8f87d70f18b09f")>
+06/07/2025 05:32:02 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 05:32:02 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 05:32:02 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/data-engineer?
+06/07/2025 05:32:02 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/data-engineer?
+06/07/2025 05:32:06 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/data-engineer?&page=1
+06/07/2025 05:32:06 PM - INFO - File not exist. Creating file and Header
+06/07/2025 05:32:06 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 05:39:09 PM - INFO - BEGINNING Program...
+06/07/2025 05:39:09 PM - INFO - Parsing Args
+06/07/2025 05:39:09 PM - INFO - Search Parameters: {'role': 'software  engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 1}
+06/07/2025 05:39:12 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="ae1ed8cc2525e50ebea2582ba55bb426")>
+06/07/2025 05:39:12 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 05:39:12 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 05:39:12 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software--engineer?
+06/07/2025 05:39:12 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software--engineer?
+06/07/2025 05:39:16 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software--engineer?&page=1
+06/07/2025 05:39:16 PM - INFO - File not exist. Creating file and Header
+06/07/2025 05:39:16 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 05:43:28 PM - INFO - BEGINNING Program...
+06/07/2025 05:43:28 PM - INFO - Parsing Args
+06/07/2025 05:43:28 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 1}
+06/07/2025 05:43:31 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="4caa999cdfe4f56aa88383322b3ff46b")>
+06/07/2025 05:43:31 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 05:43:31 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 05:43:31 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:43:31 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:43:36 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 05:43:36 PM - INFO - File not exist. Creating file and Header
+06/07/2025 05:43:36 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 05:47:45 PM - INFO - BEGINNING Program...
+06/07/2025 05:47:45 PM - INFO - Parsing Args
+06/07/2025 05:47:45 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 10}
+06/07/2025 05:47:47 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3eb2540d3c36154bab7c7a6d95049756")>
+06/07/2025 05:47:47 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 05:47:47 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 05:47:47 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:47:47 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:47:52 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 05:47:55 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/07/2025 05:47:59 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/07/2025 05:48:02 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=4
+06/07/2025 05:48:05 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=5
+06/07/2025 05:48:09 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=6
+06/07/2025 05:48:12 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=7
+06/07/2025 05:48:15 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=8
+06/07/2025 05:48:19 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=9
+06/07/2025 05:48:22 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=10
+06/07/2025 05:48:22 PM - INFO - File not exist. Creating file and Header
+06/07/2025 05:48:22 PM - INFO - Terminated SUCCESSFULLY
+06/07/2025 05:50:33 PM - INFO - BEGINNING Program...
+06/07/2025 05:50:33 PM - INFO - Parsing Args
+06/07/2025 05:50:33 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 1}
+06/07/2025 05:50:35 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="395cf2db3f44bb1080b064d657b57a30")>
+06/07/2025 05:50:35 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/07/2025 05:50:35 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/07/2025 05:50:35 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:50:35 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/07/2025 05:50:40 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/07/2025 05:50:40 PM - INFO - File not exist. Creating file and Header
+06/07/2025 05:50:40 PM - INFO - Terminated SUCCESSFULLY

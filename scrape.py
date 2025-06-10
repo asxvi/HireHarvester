@@ -73,7 +73,7 @@ def scrape_all_pages(driver, query, stopAt:int = None):
         page+=1
 
     return all_jobs
-s
+
 # gather more info from each jobs specific link
 def scrape_extended_infoRight(driver, data):    
     rv_data = []
