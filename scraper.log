@@ -473,3 +473,30 @@
 06/07/2025 05:50:40 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
 06/07/2025 05:50:40 PM - INFO - File not exist. Creating file and Header
 06/07/2025 05:50:40 PM - INFO - Terminated SUCCESSFULLY
+06/12/2025 08:04:00 PM - INFO - BEGINNING Program...
+06/12/2025 08:04:00 PM - INFO - Parsing Args
+06/12/2025 08:04:00 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 1}
+06/12/2025 08:04:07 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="6dd342b8ef4f96e57d81aa3c40a7ce19")>
+06/12/2025 08:04:07 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/12/2025 08:04:07 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/12/2025 08:04:07 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/12/2025 08:04:07 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/12/2025 08:04:12 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/12/2025 08:04:12 PM - INFO - File not exist. Creating file and Header
+06/12/2025 08:04:12 PM - INFO - Terminated SUCCESSFULLY
+06/12/2025 08:04:20 PM - INFO - BEGINNING Program...
+06/12/2025 08:04:20 PM - INFO - Parsing Args
+06/12/2025 08:04:24 PM - INFO - BEGINNING Program...
+06/12/2025 08:04:24 PM - INFO - Parsing Args
+06/12/2025 08:04:24 PM - INFO - Search Parameters: {'role': 'software engineer', 'location': 'united states', 'experience': None, 'type': None, 'pages': 5}
+06/12/2025 08:04:25 PM - INFO - Connected to driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="cc1a1532cabf2c2f65ba8470f86fefd7")>
+06/12/2025 08:04:25 PM - INFO - Constructing URL using base URL: https://himalayas.app/jobs
+06/12/2025 08:04:25 PM - INFO - Added location -> https://himalayas.app/jobs/countries/united-states
+06/12/2025 08:04:25 PM - INFO - Added role -> https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/12/2025 08:04:25 PM - INFO - Final URL: https://himalayas.app/jobs/countries/united-states/software-engineer?
+06/12/2025 08:04:28 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=1
+06/12/2025 08:04:32 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=2
+06/12/2025 08:04:38 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=3
+06/12/2025 08:04:42 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=4
+06/12/2025 08:04:46 PM - INFO - Scraped 20 jobs from https://himalayas.app/jobs/countries/united-states/software-engineer?&page=5
+06/12/2025 08:04:46 PM - INFO - Terminated SUCCESSFULLY
